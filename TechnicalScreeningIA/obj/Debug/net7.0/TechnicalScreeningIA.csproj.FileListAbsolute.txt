@@ -1,0 +1,15 @@
+C:\Users\alecc\Desktop\Int\TechnicalScreeningIA\TechnicalScreeningIA\obj\Debug\net7.0\TechnicalScreeningIA.csproj.AssemblyReference.cache
+C:\Users\alecc\Desktop\Int\TechnicalScreeningIA\TechnicalScreeningIA\obj\Debug\net7.0\TechnicalScreeningIA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alecc\Desktop\Int\TechnicalScreeningIA\TechnicalScreeningIA\obj\Debug\net7.0\TechnicalScreeningIA.AssemblyInfoInputs.cache
+C:\Users\alecc\Desktop\Int\TechnicalScreeningIA\TechnicalScreeningIA\obj\Debug\net7.0\TechnicalScreeningIA.AssemblyInfo.cs
+C:\Users\alecc\Desktop\Int\TechnicalScreeningIA\TechnicalScreeningIA\obj\Debug\net7.0\TechnicalScreeningIA.csproj.CoreCompileInputs.cache
+C:\Users\alecc\Desktop\Int\TechnicalScreeningIA\TechnicalScreeningIA\bin\Debug\net7.0\TechnicalScreeningIA.exe
+C:\Users\alecc\Desktop\Int\TechnicalScreeningIA\TechnicalScreeningIA\bin\Debug\net7.0\TechnicalScreeningIA.deps.json
+C:\Users\alecc\Desktop\Int\TechnicalScreeningIA\TechnicalScreeningIA\bin\Debug\net7.0\TechnicalScreeningIA.runtimeconfig.json
+C:\Users\alecc\Desktop\Int\TechnicalScreeningIA\TechnicalScreeningIA\bin\Debug\net7.0\TechnicalScreeningIA.dll
+C:\Users\alecc\Desktop\Int\TechnicalScreeningIA\TechnicalScreeningIA\bin\Debug\net7.0\TechnicalScreeningIA.pdb
+C:\Users\alecc\Desktop\Int\TechnicalScreeningIA\TechnicalScreeningIA\obj\Debug\net7.0\TechnicalScreeningIA.dll
+C:\Users\alecc\Desktop\Int\TechnicalScreeningIA\TechnicalScreeningIA\obj\Debug\net7.0\refint\TechnicalScreeningIA.dll
+C:\Users\alecc\Desktop\Int\TechnicalScreeningIA\TechnicalScreeningIA\obj\Debug\net7.0\TechnicalScreeningIA.pdb
+C:\Users\alecc\Desktop\Int\TechnicalScreeningIA\TechnicalScreeningIA\obj\Debug\net7.0\TechnicalScreeningIA.genruntimeconfig.cache
+C:\Users\alecc\Desktop\Int\TechnicalScreeningIA\TechnicalScreeningIA\obj\Debug\net7.0\ref\TechnicalScreeningIA.dll

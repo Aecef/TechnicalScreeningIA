@@ -1,14 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TechnicalScreeningIA
+﻿namespace TechnicalScreeningIA
 {
-    internal interface ILetterService
+    public interface ILetterService
     {
-        void CombineTwoLetters(string inputFile1, string inputFile2, string dateFormatted);
+        string CombinedLettersPath { get; }
+        string[] AdmissionSubFolders();
+        string[] ScholarshipSubFolders();
 
+        string[] GetTodaysAdmissions(string dateFormatted);
+        string[] GetTodaysScholarships(string dateFormatted);
+        string GetStudentId(string path);
+
+
+        bool WasCombined(string[] combinedArray, string letter);
+
+        void CreateReport(string[] combinedLetters, string dateFormatted);
+        void UncombinedLetters(string inputFile, string dateFormatted);
+
+
+        void CombineTwoLetters(string inputFile1, string inputFile2, string dateFormatted);
+        void ArchiveFiles(string dateFormatted);
     }
 }
