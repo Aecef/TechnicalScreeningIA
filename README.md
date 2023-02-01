@@ -1,6 +1,6 @@
 # Technical Screening For IA
 
-[How-To-Use](https://github.com/Aecef/TechnicalScreeningIA/edit/main/README.md#how-to-use)
+[How-To-Use](https://github.com/Aecef/TechnicalScreeningIA#how-to-use)
 
 ## How To Use
 
@@ -34,5 +34,43 @@ The program will run and generate the files required.
 
 ## Folder Format
 
+### Before Running `TechnicalScreeningIA.exe`
+
+```mermaid
+graph TD;
+    TechnicalScreeningIA-->Input;
+    TechnicalScreeningIA-->Output;
+    TechnicalScreeningIA-->Archive;
+    Input-->Admission;
+    Input-->Scholarship;
+    Admission-->Admission\20230201;
+    Admission\20230201-->admission-#######1.txt;
+    Admission\20230201-->admission-#######2.txt;
+    Scholarship-->Scholarship\20230201;
+    Scholarship\20230201-->scholarship-#######1.txt;
+```
+### After Running `TechnicalScreeningIA.exe`
+
+```mermaid
+graph TD;
+    TechnicalScreeningIA-->Input;
+    TechnicalScreeningIA-->Output;
+    TechnicalScreeningIA-->Archive;
+    Input-->Input\Admission;
+    Input-->Input\Scholarship;
+    Output-->Output\20230201;
+    Output\20230201-->Combined;
+    Combined-->admission-scholarship-#######1.txt;
+    Combined-->combination-report-20230201.txt;
+    Output\20230201-->Uncombined;
+    Uncombined-->Uncombined\admission-#######2.txt;
+    Archive-->Archive\Admission;
+    Archive-->Archive\Scholarship;
+    Archive\Admission-->admission-#######1.txt;
+    Archive\Admission-->admission-#######2.txt;
+    Archive\Scholarship-->scholarship-#######1.txt;
+    
+
+```
 
  
