@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
-using System.Linq;
-using TechnicalScreeningIA;
+using Xceed.Wpf.Toolkit;
+
 /* 
     Assumptions:
         Output File does not need to keep track of the date when the letters come in. 
@@ -19,9 +19,17 @@ internal static class Program
         // Processing date in the format of yyyyMMdd 
         DateTime localDate = DateTime.Today;
         string dateFormatted = localDate.ToString("d", CultureInfo.CreateSpecificCulture("ja-JP")).Replace("/", "");
-
+        string combinedLettersPath;
         // Path to the CombinedLetters root folder
-        string combinedLettersPath = args[0];
+        if (args.Any())
+        {
+            combinedLettersPath = args[0];
+        }
+        else
+        {
+            combinedLettersPath = Directory.GetCurrentDirectory() + "\\CombinedLetters";
+        }
+
         LetterService ls = new LetterService(combinedLettersPath);
 
         List<string> combinedLetters = new List<string>();
@@ -38,7 +46,6 @@ internal static class Program
             {
                 if (ls.GetStudentId(admission) == ls.GetStudentId(scholarship))
                 {
-                    Console.WriteLine(ls.GetStudentId(admission) + "==" + ls.GetStudentId(scholarship));
                     combinedLetters.Add(admission);
                     ls.CombineTwoLetters(admission, scholarship, dateFormatted);
                 }
@@ -69,9 +76,8 @@ internal static class Program
         {
             ls.CreateReport(combinedLettersArray, dateFormatted);
         }
-        
-        //ls.ArchiveFiles(dateFormatted);
 
+        ls.ArchiveFiles(dateFormatted);
 
     }
 }

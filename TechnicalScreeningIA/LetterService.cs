@@ -170,9 +170,17 @@ public class LetterService : ILetterService
         string scholarshipDirPath = CombinedLettersPath + "\\Input\\Scholarship\\" + dateFormatted;
 
         string newAdmissionPath = CombinedLettersPath + "\\Archive\\Admission\\";
-        string newScholarshipPath = CombinedLettersPath + "\\Archive\\Scholarship\\";
+        string newScholarshipPath = CombinedLettersPath + "\\Archive\\Scholarship\\"; 
 
-        Directory.Move(admissionDirPath, newAdmissionPath);
-        Directory.Move(scholarshipDirPath, newScholarshipPath);
+
+        Console.WriteLine(admissionDirPath+ " " + scholarshipDirPath);
+        Console.WriteLine(newAdmissionPath + " " + newScholarshipPath);
+
+
+        if (!Directory.Exists(newAdmissionPath))
+        {
+            Directory.Move(admissionDirPath, newAdmissionPath);
+            Directory.Move(scholarshipDirPath, newScholarshipPath);
+        }
     }
 }
