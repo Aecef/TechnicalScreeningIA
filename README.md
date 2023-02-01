@@ -1,7 +1,8 @@
 # Technical Screening For IA
 
 [How-To-Use](https://github.com/Aecef/TechnicalScreeningIA#how-to-use)  
-[Folder Format](https://github.com/Aecef/TechnicalScreeningIA#estimationcomments)  
+[Folder Format](https://github.com/Aecef/TechnicalScreeningIA#folder-format)  
+[Estimation\Comments](https://github.com/Aecef/TechnicalScreeningIA#estimationcomments)  
 [Assumptions](https://github.com/Aecef/TechnicalScreeningIA#assumptions)  
 [Problems](https://github.com/Aecef/TechnicalScreeningIA#problems)  
 [Other](https://github.com/Aecef/TechnicalScreeningIA#other)  
