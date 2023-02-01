@@ -19,6 +19,7 @@ public class LetterService : ILetterService
         }
         catch (DirectoryNotFoundException dirEx)
         {
+            //Console.WriteLine("There is no Admission ")
             Console.WriteLine("Admission Directory not found: " + dirEx.Message);
             return Array.Empty<string>();
         }
@@ -46,7 +47,8 @@ public class LetterService : ILetterService
         string AdmissionPath = CombinedLettersPath + "\\Input\\Admission" + "\\" + dateFormatted;
         if (!Directory.Exists(AdmissionPath))
         {
-            throw new DirectoryNotFoundException("There is no folder in \\Input\\Admission\\" + dateFormatted);
+            Console.WriteLine("There is no 'Admission' dir for " + dateFormatted);
+            return Array.Empty<string>();
         }
         return Directory.GetFiles(AdmissionPath);
     }
@@ -58,7 +60,8 @@ public class LetterService : ILetterService
         string ScholarshipPath = CombinedLettersPath + "\\Input\\Scholarship" + "\\" + dateFormatted;
         if (!Directory.Exists(ScholarshipPath))
         {
-            Console.WriteLine("There is no folder in \\Input\\Scholarship\\" + dateFormatted);
+            Console.WriteLine("There is no 'Scholarship' dir for " + dateFormatted);
+            return Array.Empty<string>();
         }
         return Directory.GetFiles(ScholarshipPath);
     }

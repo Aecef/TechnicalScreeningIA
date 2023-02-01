@@ -26,17 +26,21 @@ internal static class Program
 
         List<string> combinedLetters = new List<string>();
 
-        // Loops over todays scholarships
+        
         string[] todaysAdmissions = ls.GetTodaysAdmissions(dateFormatted);
         string[] todaysScholarships = ls.GetTodaysScholarships(dateFormatted);
+
+        // Loops Over Todays Admissions
         foreach (string admission in todaysAdmissions)
         {
+            // Loops Over Todays Scholarships
             foreach (string scholarship in todaysScholarships)
             {
                 if (ls.GetStudentId(admission) == ls.GetStudentId(scholarship))
                 {
-                    ls.CombineTwoLetters(admission, scholarship, dateFormatted);
+                    Console.WriteLine(ls.GetStudentId(admission) + "==" + ls.GetStudentId(scholarship));
                     combinedLetters.Add(admission);
+                    ls.CombineTwoLetters(admission, scholarship, dateFormatted);
                 }
             }
         }
@@ -60,8 +64,12 @@ internal static class Program
                 ls.UncombinedLetters(s, dateFormatted);
             }
         }
-
-        ls.CreateReport(combinedLettersArray, dateFormatted);
+        
+        if(combinedLetters.Count > 0)
+        {
+            ls.CreateReport(combinedLettersArray, dateFormatted);
+        }
+        
         //ls.ArchiveFiles(dateFormatted);
 
 
