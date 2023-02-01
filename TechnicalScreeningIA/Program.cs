@@ -1,5 +1,4 @@
 ﻿using System.Globalization;
-using Xceed.Wpf.Toolkit;
 
 /* 
     Assumptions:

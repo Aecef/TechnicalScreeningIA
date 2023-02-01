@@ -172,11 +172,6 @@ public class LetterService : ILetterService
         string newAdmissionPath = CombinedLettersPath + "\\Archive\\Admission\\";
         string newScholarshipPath = CombinedLettersPath + "\\Archive\\Scholarship\\"; 
 
-
-        Console.WriteLine(admissionDirPath+ " " + scholarshipDirPath);
-        Console.WriteLine(newAdmissionPath + " " + newScholarshipPath);
-
-
         if (!Directory.Exists(newAdmissionPath))
         {
             Directory.Move(admissionDirPath, newAdmissionPath);

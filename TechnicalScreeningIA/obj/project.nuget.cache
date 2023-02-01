@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N3rTrUtyVhexMh9m/mjKeXKezWPtUjEPj41bYR+q2mzGmhrEWQDhJX9dFvjfnS/Ui5quh9uzVayGi6v4kF1MZQ==",
+  "dgSpecHash": "O2S1jRou716L/d0blX5C7C2F5CjA0OHTJf3USJr+l2eWNpNVQMKMI/DRBZG5ZXJFSyBlQu3fAlF8T+q+2QCt4Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\alecc\\Desktop\\Int\\TechnicalScreeningIA\\TechnicalScreeningIA\\TechnicalScreeningIA.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\alecc\\.nuget\\packages\\extended.wpf.toolkit\\4.5.0\\extended.wpf.toolkit.4.5.0.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
