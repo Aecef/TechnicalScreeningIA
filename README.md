@@ -1,6 +1,10 @@
 # Technical Screening For IA
 
-[How-To-Use](https://github.com/Aecef/TechnicalScreeningIA#how-to-use)
+[How-To-Use](https://github.com/Aecef/TechnicalScreeningIA#how-to-use)  
+[Folder Format](https://github.com/Aecef/TechnicalScreeningIA#estimationcomments)  
+[Assumptions](https://github.com/Aecef/TechnicalScreeningIA#assumptions)  
+[Problems](https://github.com/Aecef/TechnicalScreeningIA#problems)  
+[Other](https://github.com/Aecef/TechnicalScreeningIA#other)  
 
 ## How To Use
 
@@ -70,7 +74,16 @@ graph TD;
     Archive\Admission-->admission-#######2.txt;
     Archive\Scholarship-->scholarship-#######1.txt;
     
-
 ```
+
+## Estimation/Comments
+
+### Expected vs Actual
+
+## Assumptions
+
+## Problems
+
+## Other
 
  
