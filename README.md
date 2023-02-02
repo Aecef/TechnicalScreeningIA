@@ -106,11 +106,11 @@ I ran into some problems when attempting to move the directories into the 'Archi
 
 #### If it is before/after the scheduled DAY
 
-If today(2-1-2023) it is run twice, which is once more before the next day, the program will attempt to find a folde named `20230201` which will no longer exist since that file has been archived. The progam will then end. If it is ran after the day, then the program will skip the previous day's folder.
+If today (2-1-2023) it is run twice, which is once more before the next day, the program will attempt to find a folder named `20230201` which will no longer exist since that file has been archived. The progam will then end. If it is ran after the day, then the program will skip the previous day's folder.
 
 #### If it is before/after the scheduled TIME (10:00AM)
 
-This wouldn't seem to affect the program unless it is used a different time zone than expected.
+This wouldn't seem to affect the program unless it is used in a different time zone than expected.
 
 ## Comments On Code
 
