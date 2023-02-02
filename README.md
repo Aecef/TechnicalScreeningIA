@@ -6,6 +6,7 @@
 [Assumptions](https://github.com/Aecef/TechnicalScreeningIA#assumptions)  
 [Problems](https://github.com/Aecef/TechnicalScreeningIA#problems)  
 [Other](https://github.com/Aecef/TechnicalScreeningIA#other)  
+[Comments On Code](https://github.com/Aecef/TechnicalScreeningIA#comments-on-code)  
 
 ## How To Use
 
